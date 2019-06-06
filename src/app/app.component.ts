@@ -12,6 +12,6 @@ export class AppComponent {
   products: Product[] = [
     { name: 'Hamburger', price: 8, details: ['Medium rare patty', 'No cheese', 'Fresh garden tomato'] },
     { name: 'Pizza', price: 5, details: ['10 pieces of pepperoni', 'Light cheese', 'Homemade pizza sauce'] },
-    { name: 'Hotdog', price: 3, details: ['Chili-cheese dog', 'Heavy cheese', 'Condiments available'] }
+    { name: 'Hot Dog', price: 3, details: ['Chili-cheese dog', 'Heavy cheese', 'Condiments available'] }
   ];
 }
