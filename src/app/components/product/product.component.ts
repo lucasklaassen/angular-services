@@ -12,7 +12,7 @@ export class ProductComponent {
 
   constructor(private cartService: CartService) {}
 
-  public addToCart(product: Product): void {
-    this.cartService.addProduct(product);
+  public addToCart(): void {
+    this.cartService.addProduct(this.product);
   }
 }
